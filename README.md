@@ -21,6 +21,4 @@ def calculate_jshshir(gender, birth_date, region_code, personal_num):
 
     return f"{gender_idx}{day}{month}{year}{region_str}{personal_str}{checksum if checksum != 10 else 0}"
 
-print(calculate_jshshir(1, "110598", 613, 9))
-
 ```
